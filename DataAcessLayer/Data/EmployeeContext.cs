@@ -13,9 +13,9 @@ namespace EmployeeWebApp.Data
         {
         }
 
-        public DbSet<Employee> Employees { get; set; }
-        public DbSet<Model.Attribute> Attributes { get; set; }
-        public DbSet<EmployeeAttribute> EmployeeAttributes { get; set; }
+        public DbSet<Employee> Employee{ get; set; }
+        public DbSet<Attributes> Attribute { get; set; }
+        public DbSet<EmployeeAttribute> EmployeeAttribute { get; set; }
         
 
 
